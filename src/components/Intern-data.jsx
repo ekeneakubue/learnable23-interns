@@ -9,7 +9,7 @@ export const mentors = [
   {
     id: 1,
     name: 'Design Godess',
-    avater: `images/f5  .jpg`,
+    avater: `images/f5.jpg`,
     group: 'Group 2',
     email: 'dgodess@learnable23.com',
   },
