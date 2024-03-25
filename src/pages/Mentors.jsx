@@ -8,7 +8,7 @@ function Mentors() {
             <h3>Learnable23 Mentors</h3>
         </div>
         
-        <table className="table-fill">
+        <table className="mentors-table">
             <thead>
                 <tr>
                     <th className="text-left">S/N</th>

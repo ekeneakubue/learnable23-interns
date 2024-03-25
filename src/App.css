@@ -454,7 +454,10 @@ body{
   }
   /* End Tables */
 
-
+.mentors-table{
+    width: 100%;
+    overflow-y: scroll;
+}
 
   @media screen and (max-width: 992px){
     .grid-container{

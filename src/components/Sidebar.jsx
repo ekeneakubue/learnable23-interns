@@ -13,8 +13,8 @@ function Sidebar({openSidebarToggle, OpenSidebar}) {
             <span className='icon close-header' onClick={OpenSidebar}>X</span>
         </div>
         <ul className="sidebar-list">
-            <Link to = '/' style={{textDecoration: 'none', color: '#9e9ea4'}}>
-                <li className='sidebar-list-item' onClick={OpenSidebar}>                
+            <Link to = '/' style={{textDecoration: 'none', color: '#9e9ea4'}} >
+                <li className='sidebar-list-item'>                
                     <BsGrid1X2Fill className='icon'/> Dashboard                
                 </li>
             </Link>
