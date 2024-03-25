@@ -1,3 +1,4 @@
+import {useState} from 'react'
 import './App.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Header from './components/Header';
@@ -10,11 +11,16 @@ import Web3 from './pages/Web3';
 import Mentors from './pages/Mentors';
 
 function App() {
+  const [openSidebarToggle, setOpenSidebarToggle] = useState(false)
+
+  const OpenSidebar = () =>{
+    setOpenSidebarToggle(!openSidebarToggle)
+  }
   return (
     <BrowserRouter>
       <div className="grid-container">
-        <Header />
-        <Sidebar />
+        <Header OpenSidebar = {OpenSidebar}/>
+        <Sidebar openSidebarToggle={openSidebarToggle} OpenSidebar = {OpenSidebar}/>
         <Routes>
             <Route path="/" element={ <Home/> } />
             <Route path="product" element={ <ProductDesign /> } />

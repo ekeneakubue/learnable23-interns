@@ -1,3 +1,35 @@
+export const mentors = [
+  {
+    id: 1,
+    name: 'Chizube Ejere',
+    avater: `images/f2.jpg`,
+    group: 'Group 1',
+    email: 'dgodess@learnable23.com',
+  },
+  {
+    id: 1,
+    name: 'Design Godess',
+    avater: `images/f5  .jpg`,
+    group: 'Group 2',
+    email: 'dgodess@learnable23.com',
+  },
+  {
+    id: 2,
+    name: 'Tappi Okoli',
+    avater: `images/p2.jpg`,
+    group: 'Group 3',
+    email: 'tappi@learnable23.com',
+  },
+  {
+    id: 3,
+    name: 'Adegoke Ayomide',
+    avater: `images/p10.jpg`,
+    group: 'Group 4',
+    email: 'cokoro@learnable23.com',
+  },
+]
+
+
 export const productDesign = [
     {
         id: 1,
@@ -360,25 +392,25 @@ export const productDesign = [
 export const data = [
     {
       name: 'Product Design',
-      uv: 40,
+      uv: 6,
       pv: 2400,
       amt: 2400,
     },
     {
       name: 'Frontend',
-      uv: 30,
+      uv: 10,
       pv: 1398,
       amt: 2210,
     },
     {
       name: 'Backend',
-      uv: 45,
+      uv: 3,
       pv: 9800,
       amt: 2290,
     },
     {
       name: 'Web3',
-      uv: 27,
+      uv: 4,
       pv: 3908,
       amt: 2000,
     },    
